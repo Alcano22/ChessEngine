@@ -19,7 +19,6 @@ public class Tile {
 
     private static final Color LIGHT_COLOR = new Color(0xF0D9B5);
     private static final Color DARK_COLOR = new Color(0xB58863);
-    private static final Color BEST_MOVE_COLOR = new Color(70, 70, 180, 125);
     private static final Color SELECTED_TINT = new Color(69, 112, 51, 150);
     private static final Color CHECK_TINT = new Color(243, 65, 65, 175);
     private static final BufferedImage LEGAL_MOVE_TEXTURE = AssetPool.loadTexture("textures/legal_move.png");

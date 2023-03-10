@@ -22,7 +22,6 @@ public class Engine {
         instance = this;
 
         this.board = new Board();
-        this.board.loadFromFen("1QR5/8/8/K7/8/8/8/6k1 w - - 0 1");
         this.boardDisplay = new BoardDisplay(this.board);
         this.hud = new HUD(this.board);
         this.stockfish = new Stockfish(this.board);
